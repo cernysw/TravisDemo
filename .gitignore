@@ -4,3 +4,5 @@ Travis\.Tests/bin/
 Travis\.Tests/obj/
 
 Travis\.Tests/\.vs/
+
+Travis\.Tests/packages/

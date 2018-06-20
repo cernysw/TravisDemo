@@ -6,3 +6,7 @@ Travis\.Tests/obj/
 Travis\.Tests/\.vs/
 
 Travis\.Tests/packages/
+
+Travis\.NUnitTests/bin/
+
+Travis\.NUnitTests/obj/

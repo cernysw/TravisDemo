@@ -1,2 +1,2 @@
 language: csharp
-solution: Travis.Tests\Travis.Tests.sln
+solution: ./Travis.Tests/Travis.Tests.sln

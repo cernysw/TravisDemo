@@ -22,7 +22,7 @@ namespace Travis.NUnitTests
         [Test]
         public void TestMethod3()
         {
-            // fix2
+            // fix3
             
         }
     }

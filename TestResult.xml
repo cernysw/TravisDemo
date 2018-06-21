@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="2" failed="0" inconclusive="1" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.854475">
+  <command-line><![CDATA[.\Travis.Tests\packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe  ./Travis.NUnitTests/bin/Release/Travis.NUnitTests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="Travis.NUnitTests.dll" fullname="D:\GitHub\TravisDemo\Travis.NUnitTests\bin\Release\Travis.NUnitTests.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.065050" total="3" passed="2" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.10586.0" platform="Win32NT" cwd="D:\GitHub\TravisDemo" machine-name="BRN-DVB-DCER" user="david.cerny" user-domain="SWDEV" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\GitHub\TravisDemo" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11736" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1005" name="Travis" fullname="Travis" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.047887" total="3" passed="2" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1006" name="NUnitTests" fullname="Travis.NUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.047457" total="3" passed="2" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1000" name="NUnitTest1" fullname="Travis.NUnitTests.NUnitTest1" classname="Travis.NUnitTests.NUnitTest1" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.043580" total="3" passed="2" failed="0" warnings="0" inconclusive="1" skipped="0" asserts="0">
+          <test-case id="0-1001" name="TestMethod1" fullname="Travis.NUnitTests.NUnitTest1.TestMethod1" methodname="TestMethod1" classname="Travis.NUnitTests.NUnitTest1" runstate="Runnable" seed="871661916" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.005820" asserts="0" />
+          <test-case id="0-1002" name="TestMethod2" fullname="Travis.NUnitTests.NUnitTest1.TestMethod2" methodname="TestMethod2" classname="Travis.NUnitTests.NUnitTest1" runstate="Runnable" seed="1479814245" result="Inconclusive" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.028403" asserts="0" />
+          <test-case id="0-1003" name="TestMethod3" fullname="Travis.NUnitTests.NUnitTest1.TestMethod3" methodname="TestMethod3" classname="Travis.NUnitTests.NUnitTest1" runstate="Runnable" seed="1704817515" result="Passed" start-time="2018-06-21 09:17:11Z" end-time="2018-06-21 09:17:11Z" duration="0.000109" asserts="0" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

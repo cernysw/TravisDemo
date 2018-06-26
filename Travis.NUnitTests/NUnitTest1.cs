@@ -16,13 +16,12 @@ namespace Travis.NUnitTests
         [Test]
         public void TestMethod2()
         {
-            Assert.Inconclusive();
+            Assert.Fail("I failed. Sorry.");
         }
 
         [Test]
         public void TestMethod3()
         {
-            // fix3
             
         }
     }

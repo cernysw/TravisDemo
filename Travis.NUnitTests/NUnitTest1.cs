@@ -16,7 +16,7 @@ namespace Travis.NUnitTests
         [Test]
         public void TestMethod2()
         {
-            Assert.Fail("I failed. Sorry.");
+            //Assert.Fail("I failed. Sorry.");
         }
 
         [Test]

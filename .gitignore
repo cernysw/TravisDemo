@@ -10,3 +10,5 @@ Travis\.Tests/packages/
 Travis\.NUnitTests/bin/
 
 Travis\.NUnitTests/obj/
+
+*.user
